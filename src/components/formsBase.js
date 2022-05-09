@@ -12,6 +12,21 @@ const Container = styled.div`
   gap: 16px;
 `;
 
+const Button = styled.button`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background: #A328D6;
+    max-width: 90vw;
+    height: 46px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+`
+
 const StyledLink = styled(Link)`
   display: flex;
   justify-content: center;
@@ -24,4 +39,4 @@ const StyledLink = styled(Link)`
   margin-top: 30px;
 `;
 
-export { Container, StyledLink };
+export { Container, Button, StyledLink };
